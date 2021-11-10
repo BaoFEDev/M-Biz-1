@@ -1,0 +1,25 @@
+#section2{
+    padding-top: $distance;
+    .video-container{
+        width: 100%;
+        padding-right: 59px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .title-section{
+        font-size: $title-section-size;
+
+        color: $text-color;
+    }
+    p{
+        color: $text-color;
+
+        font-size: $text-size;
+        font-family: 'Calibre-Medium';
+
+        padding-right: 110px;
+
+    }
+}

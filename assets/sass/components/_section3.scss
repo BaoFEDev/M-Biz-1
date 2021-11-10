@@ -1,0 +1,41 @@
+#section3{
+    padding-top: $distance;
+     .img-container{
+        width: 100%;
+        padding-right: 59px;
+        img{
+            width: 280px;
+            height: 302px;
+        }
+    }
+    .title-section{
+        font-size: $title-section-size;
+        
+        color: $text-color;
+    }
+    .ideal-list{
+        li{
+            color: $text-color;
+            
+            font-size: $text-size;
+            
+            padding-left: 22px;
+            margin-bottom: 27px;
+
+            position: relative;
+            &::before{
+                content: "";
+                
+                position: absolute;
+                left: 0;
+                top: 18px;
+
+                width: 7px;
+                height: 7px;
+                border-radius: 50%;
+
+                background-color: $main-color;
+            }
+        }
+    }
+}

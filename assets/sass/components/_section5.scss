@@ -1,0 +1,25 @@
+#section5{
+    padding-top: 278px;
+    .main-title{
+        font-size: 54px;
+        
+        position: relative;
+        &:after{
+            content: "";
+
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            
+            transform: translateX(-50%);
+            
+            width: 219px;
+            height: 4px;
+            
+            background-color: $main-color;
+            @include MediaOnlyScreenAndMaxWidth(576px){
+                top: 166px;
+            }
+        }
+    }
+}

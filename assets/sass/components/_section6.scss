@@ -1,0 +1,33 @@
+#section6{
+    padding-top: $distance;
+    .title-section{
+        font-size: $title-section-size;
+
+        color: $text-color;
+
+        margin-bottom: 120px;
+    }
+    .title-item{
+        font-size: $title-section-size;
+
+        color: $text-color;
+
+        margin-bottom: 40px;
+    }
+    p{
+        color: $text-color;
+
+        font-size: $text-size;
+        line-height: 40px;
+
+        padding-right: 50px;
+    }
+    .img-container{
+        margin-bottom: 133px;
+        img{
+            @include MediaOnlyScreenAndMaxWidth(576px){
+                width: 300px;
+            }
+        }
+    }
+}
